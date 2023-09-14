@@ -76,7 +76,6 @@ void scale(int x, int y){
   translate(-x-35, 25-y);
   
   //mouth
-  System.out.println(mouth);
   noFill();
   if(mouth != 2){
     arc(x, y+25, 40, 10, PI/10 + PI * mouth, PI * 9/10 + PI * mouth);
